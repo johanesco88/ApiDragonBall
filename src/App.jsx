@@ -9,14 +9,14 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 
 
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
+import Header from './Components/Header/Header'
+import Footer from './Components/Footer/Footer'
 import CustomCard from './Components/CustomCard/CustomCard';
 import NavBar from './Components/NavBar/NavBar'
 
 import HomePage from './Pages/HomePage/HomePage'
-import FilterPage from './pages/FilterPage/FilterPage'
-import DetailsPage from './pages/DetailsPage/DetailsPage'
+import FilterPage from './Pages/FilterPage/FilterPage'
+import DetailsPage from './Pages/DetailsPage/DetailsPage'
 import ErrorPage from './Pages/ErrorPage/ErrorPage'
 import AcercaDePage from './Pages/AcercaDePage/AcercaDePage'
 
