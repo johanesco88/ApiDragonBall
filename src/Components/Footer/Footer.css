@@ -1,0 +1,43 @@
+footer{
+background-color: rgb(255, 255, 255);
+    height: 100%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+#logo_goku{
+    width: 150px;
+    height: 100%;
+    margin-right: 20%;
+}
+
+#contenedor{
+    margin-left: 20%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(27, 49, 255);
+}
+
+@media (max-width: 1020px) {
+    footer{
+            height: 100%;
+            flex-direction: column-reverse;
+        }
+        
+        #logo_goku{
+            margin-right: 0%;
+        }
+        
+        #contenedor{
+            margin-left: 0%;
+            text-align: center;
+        }
+  }

@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 20px;
+    background-image: url(https://img1.wallspic.com/crops/4/3/7/5/5/155734/155734-goku-zamasu-vegeta-gohan-dragon_ball-1280x720.jpg);
+    background-size: cover;
+    background-position: top;
+    box-sizing: border-box;
+  }
+  
+  .card {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: rgb(44, 44, 44);
+}
+
+.card-content {
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    background-color: rgb(44, 44, 44);
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    padding: 16px;
+    color: white;
+  }
+  
+  .card-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .botones{
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .EstiloBoton {
+    color: white;
+    margin: 10px;
+  }

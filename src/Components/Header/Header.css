@@ -1,0 +1,63 @@
+header{
+    background-color: white;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dragonImg{
+    width: 350px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+#dragonImg:hover{
+    margin-left: 60px;
+    margin-right: 60px;
+    transition: all 0.5s ease-in-out;
+}
+#dragonImg:not(:hover){
+    margin-left: 0px;
+    margin-right: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.imgHeader{
+    width: 120px;
+    height: 120px;
+}
+
+#Goku{
+    width: 120px;
+    height: 160px;
+}
+#Vegeta{
+    width: 120px;
+    height: 150px;
+}
+
+@media (max-width: 1020px) {
+
+    header{
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+    }
+    #dragonImg{
+        width: 40%;
+        height: 80px;
+    }
+    .imgHeader{
+        width: 80px;
+        height: 80px;
+    }
+    #Goku{
+        width: 0px;
+        height: 0px;
+    }
+    #Vegeta{
+        width: 0px;
+        height: 0px;
+    }
+}
